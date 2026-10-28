@@ -25,7 +25,7 @@ jobs:
          npm install
 
       - name: Build and bundle your application
-        run: npm run-script
+        run: npx react-scripts build
 
       - name: Set up AWS CLI
         uses: aws-actions/configure-aws-credentials@v4
